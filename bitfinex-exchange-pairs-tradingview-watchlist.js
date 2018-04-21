@@ -1,0 +1,10 @@
+var todayDate = new Date().toISOString().slice(0,10);
+var pairs=''; 
+$(APP.data.exchange_pairs).each(function(i,pair){ var currency = pair.substr(3,3); if(currency=='USD' || currency=='BTC' || currency=='ETH'){ pairs += "BITFINEX:" + pair + "\n"; }});
+var element = document.createElement('a');
+element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(pairs));
+element.setAttribute('download', 'Bitfinex Exchange Pairs (' + todayDate + ').txt');
+element.style.display = 'none';
+document.body.appendChild(element);
+element.click();
+document.body.removeChild(element);
