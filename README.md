@@ -4,11 +4,10 @@ The two javascript snippets above extracts all tradeable pairs on Bitfinex. You 
 
 Setup:
 
-Decide whether you want exchange or margin tradeable pairs and copy the appropriate javascript snippet.
-
-1. The code needs to be converted into a bookmarklet so you can access it from your browser bookmarks. 
+1. Decide whether you want [exchange](https://github.com/cryptomius/Bitfinex-TradingView-Watchlist/blob/master/bitfinex-exchange-pairs-tradingview-watchlist.js) or [margin](https://github.com/cryptomius/Bitfinex-TradingView-Watchlist/blob/master/bitfinex-margin-pairs-tradingview-watchlist.js) tradeable pairs and copy the appropriate javascript snippet.
+2. The code needs to be converted into a bookmarklet so you can access it from your browser bookmarks. 
 Go to [mrcoles.com/bookmarklet](https://mrcoles.com/bookmarklet/), paste the code where it says ‘Enter your javascript code here:’, click ‘Convert to bookmarklet’. Copy the code from where it says ‘and here is the code:’.
-2. Go to your web browser Bookmark Manager and add a new bookmark. Paste the code you just copied into the ‘URL’ field, and name the bookmark (I’ve called it 'Bitfinex TV Watchlist’). I’d recommend placing the bookmark on your ‘Bookmarks Bar’ for easy access.
+3. Go to your web browser Bookmark Manager and add a new bookmark. Paste the code you just copied into the ‘URL’ field, and name the bookmark (I’ve called it 'Bitfinex TV Watchlist’). I’d recommend placing the bookmark on your ‘Bookmarks Bar’ for easy access.
 
 To use:
 
